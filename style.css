@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.poke-thumbnail img {
+  width: 90px;
+  height: 90px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
+  padding: 2em;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+header img {
+  margin-bottom: 1em;
+}
+.poke-header {
+  font-family: "Courgette", cursive;
+  font-size: 40px;
+}
+.pokemon-info {
+  display: flex;
+  padding: 1em;
+}
+
+.poke-container {
+  display: flex;
+  border: 1px solid rgb(209, 206, 206);
+  border-radius: 10px;
+  box-shadow: 0 8px 2px -2px rgba(5, 5, 5, 0.3);
+  background-color: rgb(250, 210, 248, 0.3);
+  padding: 1em;
+}
+
+.art-work img {
+  width: 300px;
+  height: 300px;
+  padding: 2em;
+}
+
+.form-control {
+  width: 200px;
+  padding: 1em;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  border-color: rgb(0, 0, 0);
+  background-color: rgba(245, 216, 243, 0.8);
+  box-shadow: 0 8px 2px -2px rgba(5, 5, 5, 0.3);
+}
+.button {
+  width: 80px;
+  padding: 0.5em;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(250, 210, 248, 0.3);
+  cursor: pointer;
+  font-weight: bold;
+}
+.return-btn {
+  width: 80px;
+  padding: 0.5em;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+span{
+    font-weight:bold;
+}
+
+
+
+.details-list{
+    margin-bottom: 2em;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  border: 1px solid rgb(209, 206, 206);
+  border-radius: 10px;
+  box-shadow: 0 8px 2px -2px rgba(5, 5, 5, 0.3);
+  background-color: rgb(250, 210, 248, 0.3);
+  cursor: pointer;
+}
+
+/* .hide-search-list {
+    display: none;
+} */
